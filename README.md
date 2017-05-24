@@ -1,28 +1,6 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+# Overview
+This is application extends **search_feature_2** in order to test:
++ Is search functionality affected when running searches on a parent model when the search values are foreign keys that reference attributes of a child model, when both the parent and child models use STI.
++ Once I establish that STI has no affect on the search feature, I want to test dynamic multistep forms.
