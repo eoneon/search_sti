@@ -1,0 +1,2 @@
+class SportItem < Item
+end

@@ -1,0 +1,2 @@
+class SculptureItem < Item
+end
