@@ -31,6 +31,7 @@ module SearchSti
 
     #make parent class aware of STI subclasses
     config.autoload_paths += %W(#{config.root}/app/models/item)
+    config.autoload_paths += %W(#{config.root}/app/models/description)
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
   end
