@@ -1,0 +1,8 @@
+<h1>Descriptions#index</h1>
+<div>
+  <% @descriptions.each do |description| %>
+    <li><%= description.type %> |
+    <%= description.kind %> |
+    <%= description.description %></li>
+  <% end %>
+</div>

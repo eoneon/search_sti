@@ -1,0 +1,28 @@
+Mounting,wall,framed
+Mounting,wall,unframed
+Mounting,wall,gallery wrapped
+Mounting,wall,stretched
+Category,original,painting
+Category,original,mixed media painting
+Category,original,one of a kind
+Category,original,etching
+Category,original,sketch
+Category,original,drawing
+Category,print,ink
+Category,print,generic
+Medium,paint,oil
+Medium,paint,acrylic
+Medium,paint,watercolor
+Medium,paint,guache
+Medium,paint,oil and acrylic
+Medium,etching,etching
+Medium,etching,engraving
+Medium,sketch,pencil
+Medium,sketch,colored pencil
+Medium,drawing,ink
+Medium,ink,giclee
+Medium,ink,lithograph
+Medium,ink,serigraph
+Medium,ink,etching
+Medium,generic,poster
+Medium,generic,vintage poster
