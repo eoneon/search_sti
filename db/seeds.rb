@@ -1,5 +1,6 @@
 require 'csv'
 
+Description.delete_all
 records = CSV.foreach('db/descriptions.csv').map do |row|
   Description.create!({
     :type => row[0],
